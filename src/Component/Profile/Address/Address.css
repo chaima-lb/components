@@ -1,0 +1,16 @@
+p
+{  font-weight: bold;
+    font-style: italic;   font-size: 25px;margin-top: -10px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    0%   {background-color:rgb(74, 89, 155); left:0px; top:0px;}
+    25%  {background-color:rgb(202, 53, 158); left:100px; top:0px;}
+    50%  {background-color:rgb(104, 187, 226); left:100px; top:100px;}
+    75%  {background-color:rgb(58, 240, 179); left:0px; top:100px;}
+    100% {background-color:rgb(202, 130, 219); left:0px; top:0px;}
+  }
